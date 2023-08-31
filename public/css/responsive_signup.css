@@ -1,0 +1,178 @@
+@media screen and (max-width: 320px) {
+  .message-content {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-top: 2px;
+  }
+  .alert-dismissible .dismiss-button {
+    padding: 20px 9px;
+    font-size: 9px;
+  }
+  .message-content.no-user-pass {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+  .alert-dismissible .dismiss-button.no-user-pass {
+    padding: 10px 9px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .alert {
+    width: 200px;
+  }
+  .message-content {
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+  .alert-dismissible .btn-close {
+    font-size: 10px;
+    padding: 20px 7px;
+  }
+  .message-content.no-user-pass {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+  .alert-dismissible .dismiss-button.no-user-pass {
+    padding: 18px 9px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .alert {
+    width: 205px;
+  }
+  .message-content {
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .alert-dismissible .btn-close {
+    font-size: 10px;
+    padding: 20px 10px;
+  }
+  .message-content.no-user-pass {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 25px;
+    padding-top: 2px;
+  }
+  .alert-dismissible .dismiss-button.no-user-pass {
+    padding: 18px 9px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .alert {
+    width: 200px;
+  }
+  .message-content {
+    font-size: 11px;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+  .alert-dismissible .btn-close {
+    font-size: 10px;
+    padding: 22px 10px;
+  }
+  .message-content.no-user-pass {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 25px;
+    padding-top: 2px;
+  }
+  .alert-dismissible .dismiss-button.no-user-pass {
+    padding: 18px 9px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .alert {
+    width: 205px;
+  }
+  #username {
+    height: 25px;
+    /* text-align-last: center; */
+  }
+  #pwd {
+    height: 25px;
+  }
+  .responsive-container {
+    font-size: 10px;
+    width: 250px;
+    /* height: 300px; */
+  }
+  .message-content {
+    font-size: 11px;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+  .alert-dismissible .btn-close {
+    font-size: 10px;
+    padding: 22px 15px;
+  }
+  .message-content.no-user-pass {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 25px;
+    padding-top: 2px;
+  }
+  .alert-dismissible .dismiss-button.no-user-pass {
+    padding: 18px 9px;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .alert {
+    width: 205px;
+  }
+  #username {
+    height: 25px;
+  }
+  #pwd {
+    height: 25px;
+  }
+  .responsive-container {
+    font-size: 10px;
+    width: 250px;
+  }
+  .message-content {
+    font-size: 12px;
+    margin-bottom: 7px;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 25px;
+  }
+  .alert-dismissible .btn-close {
+    font-size: 13px;
+    padding: 22px 10px;
+  }
+  .message-content.no-user-pass {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-left: 25px;
+    padding-top: 2px;
+  }
+  .alert-dismissible .dismiss-button.no-user-pass {
+    padding: 18px 9px;
+    font-size: 10px;
+  }
+}
