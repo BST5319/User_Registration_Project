@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const expressSession = require("express-session");
+const cookieSession = require("cookie-session");
 const flash = require("connect-flash");
 const mongoose = require("mongoose");
 const app = express();
@@ -15,7 +15,7 @@ db_connection();
 app.set("view engine", "ejs");
 
 // Naming current Session
-app.use(expressSession({
+app.use(cookieSession({
     secret: "user_registration",
     saveUninitialized: true,
     resave: false
