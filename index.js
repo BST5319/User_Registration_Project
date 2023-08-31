@@ -18,7 +18,7 @@ app.set("view engine", "ejs");
 app.use(expressSession({
     secret: "user_registration",
     saveUninitialized: true,
-    resave: true
+    resave: false
 }));
 
 // Using flash to flash the messages while redirecting
